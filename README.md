@@ -32,7 +32,7 @@ open ```kcfinder->conf directory``` and open ```config.php```
 and then get session from CI with this code ( i set session with named upload_image_file_manager to access filemanager )
 ```
 ob_start();
-include('../../../../index.php');
+include('/../../index.php');
 ob_end_clean();
 $CI =& get_instance();
 $CI->load->driver('session');
