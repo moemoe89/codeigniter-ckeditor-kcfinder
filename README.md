@@ -1,4 +1,4 @@
-# codeigniter-ckeditor-kcfinder
+# Codeigniter 3 with Ckeditor & KCFinder
 [Codeigniter](http://codeigniter.com/) with [CKEDITOR](http://ckeditor.com/) and [KCFINDER](http://kcfinder.sunhater.com/) using session for authenctication
 
 # Setup
@@ -65,3 +65,6 @@ and replace ```filebrowserImageBrowseUrl```
 # Let's try
 for the example i create two page. first without session so when we access the upload manager we will get notification that we not authorized to access it.
 and the second i give session named upload_image_file_manager so when we do the step before we can access kcfinder like upload files and take it to ckeditor textarea
+
+# Note !!
+work only for Codeigniter 3, if you used Codeigniter 2 you should use native session PHP for authentication
